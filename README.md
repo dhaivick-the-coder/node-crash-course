@@ -33,8 +33,8 @@
 - module.exports = myFile; (or) exports.myFile = () => {}
 - const myFile = require(‘./myFile’)
 - Note:
-  - **./:** File in current directory
-  - **../:** File in parent directory
+  - **(./)** File in current directory
+  - **(../)** File in parent directory
   - **\_\_dirname:** gives name of directory in which file exists.
   - **\_\_filename:** gives name of file and directory in which file exists.
 
